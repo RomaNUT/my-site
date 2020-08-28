@@ -82,6 +82,11 @@ body {
   text-align: center;
 }
 
+figure img {
+  display: block;
+  margin: 0 auto; 
+}
+
 .user-image {
   margin: 0 0 32px;
   text-align: center;
