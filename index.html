@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link
     href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Портфолио Junior верстальщика</title>
+  <title>Портфолио Junior Front-End разработчика</title>
 </head>
 
 <body>
@@ -28,13 +29,36 @@
   <section class="intro">
     <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
-      <figure>
+      <figure class="myimg">
         <img src="files/user.jpg" height=100% alt="Фотография Утимишева Романа">
       </figure>
-      <h3>Пара слов о себе</h3>
-      <p>Начинаю свой путь Front-End разработчика</p>
-      <h3>Чем могу быть полезен</h3>
-      <p>Могу быть полезен, когда научусь</p>
+      <div class="about">
+        <h3>Пара слов о себе</h3>
+        <p>Начинаю свой путь Front-End разработчика.</p>
+      </div>
+      <div class="useful">
+        <h3>Чем могу быть полезен</h3>
+        <p>Здесь будет описание моих преимуществ.</p>
+      </div>
+
+      <div class="skills">
+        <h3>Мои навыки</h3>
+        <dl class="skills-list">
+          <dt class="skill-html skills-adapt">HTML</dt>
+          <dd class="level">
+            <div style="width: 65%;">65%</div>
+          </dd>
+          <dt class="skill-css skills-adapt">CSS</dt>
+          <dd class="level">
+            <div style="width: 51%;">51%</div>
+          </dd>
+          <dt class="skill-js skills-adapt">JavaScript</dt>
+          <dd class="level">
+            <div style="width: 5%;">5%</div>
+          </dd>
+        </dl>
+      </div>
+
     </div>
   </section>
 
