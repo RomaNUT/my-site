@@ -86,8 +86,9 @@ body {
     margin: 0 0 20px 50px;
 }
 
-.about-photo {
+.about-video {
     margin: 0 50px 50px 0;
+    outline: none;
 }
 
 .dignity {
@@ -316,6 +317,7 @@ body {
 }
 
 .cards-button {
+    outline: none;
     margin: 0 20px 20px 20px;
     width: 260px;
     min-height: 40px;
@@ -326,6 +328,17 @@ body {
     line-height: 1;
     color: #445161;
     border: none;
+    text-transform: uppercase;
+}
+
+.cards-button:hover,
+.cards-button:focus {
+    opacity: 0.7;
+}
+
+.cards-button:active {
+    color: green;
+    opacity: 0.8;
 }
 
 .cards-premium {
@@ -375,6 +388,10 @@ body {
     border-radius: 5px;
 }
 
+input {
+    outline: none;
+}
+
 .input-form {
     margin: 0 0 21px 0;
     font-size: 16px;
@@ -384,12 +401,14 @@ body {
 }
 
 .input-textarea {
+    outline: none;
     font-size: 16px;
     color: $grey;
     padding: 13px 10px 0 10px;
     margin-bottom: 21px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
+    resize: none;
 }
 
 .input-button {
@@ -404,6 +423,17 @@ body {
     line-height: 1.5;
     color: #445162;
     margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.input-button:hover,
+.input-button:focus {
+    opacity: 0.7;
+}
+
+.input-button:active {
+    color: green;
+    opacity: 0.8;
 }
 
 .footer-info-list {
